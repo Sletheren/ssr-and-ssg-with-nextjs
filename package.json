@@ -1,13 +1,16 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "starwars-nextjs",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Abdo Rakhma [contact@rakhma.me]",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
